@@ -2,21 +2,22 @@ package DIOExplorandoPadroesdeProjetosJava.model;
 
 import jakarta.persistence.*;
 
+
 @Entity
 public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Lond id;
+    private Long id;
     private String nome;
     @ManyToOne
     private Endereco endereco;
 
-    public Lond getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Lond id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
