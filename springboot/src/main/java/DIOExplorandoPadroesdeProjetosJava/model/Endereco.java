@@ -5,6 +5,11 @@ import javax.annotation.Generated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+/**
+ * Os atributos desse modelo foram gerados automaticamente pelo site
+ * jsonschema2pojo.org Para isso, usamos o JSON de retorno da API do viaCEP.
+ *
+ */
 @Entity
 public class Endereco {
 
@@ -109,5 +114,5 @@ public class Endereco {
         this.additionalProperties.put(name, value);
     }
 
-    }
+
 }
